@@ -12,3 +12,13 @@ A simple C project that uses **file handling** to manage student report cards. T
 - ✏️ Update student marks and average
 - ❌ Delete a student record
 - 📁 File-based storage (`students.txt`)
+
+
+🖥️ How to Run
+
+1. **Compile the code:**
+   gcc student.c -o report
+
+2. **Run the code:**
+   report.exe
+
