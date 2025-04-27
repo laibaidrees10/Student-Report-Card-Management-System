@@ -17,30 +17,34 @@ A simple C project that uses **file handling** to manage student report cards. T
 🖥️ How to Run
 
 1. **Compile the code:**
-   gcc student.c -o report
+   
+        gcc student.c -o report
 
 2. **Run the code:**
-   report.exe
+   
+         report.exe
 
-Sample Output
+## Sample Output
+
 ![image](https://github.com/user-attachments/assets/d113011a-5c05-4ed0-b3c3-bb7dc7339e01)
 
-📌 Student Record Format
+## 📌 Student Record Format
+
 Each student record stores:
 
-*Roll number (int)
+* Roll number (int)
 
-*Name (string)
+* Name (string)
 
-*Marks in 5 subjects (float array)
+* Marks in 5 subjects (float array)
 
-*Average marks (float)
+* Average marks (float)
 
-💾 File Handling Concepts Used
-*fopen, fclose
-*fread, fwrite
-*fseek for record updates
-*rename, remove for deletion
+## 💾 File Handling Concepts Used
+* fopen, fclose
+* fread, fwrite
+* fseek for record updates
+* rename, remove for deletion
 
 ✅ Ideal For:
 C programming beginners
